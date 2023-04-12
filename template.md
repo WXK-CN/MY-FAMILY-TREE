@@ -32,3 +32,19 @@ flowchart LR
 flowchart LR
     JJ(姐姐)---W([我])---MM(妹妹)---DD(弟弟)
 ```
+
+## 单人三代
+
+```mermaid
+flowchart
+    F --- M
+    F --> W
+    M --> W
+    W --- C
+    
+```
+
+参考
+
+[基因树](https://gojs.net/latest/samples/genogram.html)
+[家族树](https://gojs.net/latest/samples/familyTree.html)
